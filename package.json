@@ -1,8 +1,8 @@
 {
   "author": "Zero65 Technologies Pvt. Ltd.",
   "name": "@zero65tech/config",
-  "version": "0.0.0",
-  "description": "Zero65 Services & Utils Config",
+  "version": "1.0.0",
+  "description": "Zero65 Platform Config",
   "license": "MIT",
   "repository": {
     "type": "git",
