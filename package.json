@@ -1,0 +1,39 @@
+{
+  "author": "Zero65 Technologies Pvt. Ltd.",
+  "name": "@zero65tech/config",
+  "version": "0.0.0",
+  "description": "Zero65 Services & Utils Config",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zero65Tech/config-nest"
+  },
+  "keywords": [
+    "zero65",
+    "zero65-tech"
+  ],
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --coverage test",
+    "lint": "npx eslint --fix src test"
+  },
+  "devDependencies": {
+    "eslint": "8.54.x",
+    "jest": "29.7.x"
+  },
+  "eslintConfig": {
+    "env": {
+      "es2021": true,
+      "jest": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": "latest"
+    },
+    "rules": {}
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
