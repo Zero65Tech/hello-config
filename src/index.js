@@ -1,4 +1,5 @@
 process.env.STAGE = process.env.STAGE || 'alpha';
+process.env.PORT = process.env.PORT || 8080;
 
 const fs = require('fs');
 
