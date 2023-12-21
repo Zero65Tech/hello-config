@@ -1,0 +1,1 @@
+exports.firestore = require('./firestore');
